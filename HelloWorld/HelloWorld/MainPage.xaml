@@ -10,7 +10,8 @@
         HorizontalOptions="Center"
         VerticalOptions="Center" />
         <Entry Placeholder="Write your name" />
-        <Button Text="Say hello" />
+        <Button Text="Say hello" 
+                Clicked="Handle_Clicked" />
     </StackLayout>
 
 </ContentPage>
