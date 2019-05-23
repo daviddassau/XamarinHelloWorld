@@ -16,7 +16,10 @@ namespace HelloWorld
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            string userName = nameEntry.Text;
+            string greeting = $"Hello {userName}!";
+
+            greetingLabel.Text = greeting;
         }
     }
 }
